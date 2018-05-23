@@ -1,4 +1,4 @@
-# Baby-Twitter-Components
+# Baby-Twitter-With-Components
 Built using AngularJS.
 Components on components on directives.
 
