@@ -12,12 +12,7 @@ const postForm = {
     <textarea expand-on-focus class="new_textarea" placeholder="Message" ng-model="$ctrl.newItem.message"></textarea>
     <button class="new_message_button">Add Post</button>
   </form>
-  `,
-  controller: function() {
-    const vm = this;
-  }
-
-
+  `
 }
 
 
