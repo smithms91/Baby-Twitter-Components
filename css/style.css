@@ -1,0 +1,128 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-color: #d1d1d1;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.header {
+  font-family: "Satisfy", sans-serif;
+  text-align: center;
+}
+
+.add_thought_button {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.single_post {
+  border-bottom: 1px solid grey;
+  margin: .25rem 0;
+  padding: 10px;
+}
+
+.post_header {
+  font-size:  22px;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.post_message {
+  font-family: "Kalam", sans-serif;
+}
+
+.new_message {
+  background-color: turquoise;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.new_message_title {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+
+.new_message_button {
+  margin: 1rem 0;
+  padding: .5rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.new_input {
+  border-radius: 5px;
+  border: .5px solid black;
+  height: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.new_textarea {
+  border-radius: 5px;
+  border: .5px solid black;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container {
+    align-items: stretch;
+    width: 800px;
+    padding: 2rem 4rem;
+  }
+
+  .new_message {
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
